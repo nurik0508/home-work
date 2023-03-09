@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  margin: 10px;
+}
+
+div {
+  outline: .5px solid red;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  padding: 2px;
+}
+
+input {
+  position: absolute;
+  top: -9px;
+  left: -9px;
+  width: 95%;
+  height: 95%;
+}
