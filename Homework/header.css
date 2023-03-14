@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  padding: 22px 12px;
+  background-color: aquamarine;
+}
+
+.column-1 {
+  gap: 16px;
+  justify-content: start;
+  background-color: white;
+}
+
+p {
+  font-family: 'Circular Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #252A31;
+}
+
+.New {
+  font-family: 'Circular Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+
+}
+
+.column-2 {
+  justify-content: end;
+  background-color: white;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  max-width: 1150px;
+  height: 70px;
+  background-color: rgb(250, 245, 249);
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(241, 234, 247);
+}
+
+li:hover {
+  color: red;
+}
+
+button {
+  border-color: black;
+  height: 40px;
+  color: blueviolet;
+}
