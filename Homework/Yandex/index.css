@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: burlywood;
+}
+
+div {
+  width: 78px;
+  height: 30px;
+  background-color: rgb(242, 227, 17);
+  position: relative;
+  margin: 50px;
+  padding: 20px;
+}
+
+div::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  top: 70px;
+  left: .5px;
+  background-color: rgb(249, 246, 246);
+  padding: 17px;
+}
+
+div::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  top: 70px;
+  left: 60px;
+  background-color: rgb(9, 9, 9);
+  padding: 17px;
+}

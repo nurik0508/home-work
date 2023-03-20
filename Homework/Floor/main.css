@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-first {
+  display: flex;
+  padding: 5px 125px;
+  justify-content: space-between;
+}
+
+.main-first-first {
+  background-color: #F8F8F8;
+  width: 500px;
+  height: 450px;
+}
+
+.main-first-first h1 {
+  position: absolute;
+  width: 490px;
+  height: 114px;
+  left: 175px;
+  top: 160px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 130%;
+  text-transform: uppercase;
+  color: #232020;
+}
+
+.main-first-first p {
+  position: absolute;
+  width: 490px;
+  height: 48px;
+  left: 175px;
+  top: 286px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #232020;
+}
+
+.main-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 18px 40px;
+  gap: 10px;
+  position: absolute;
+  width: 230px;
+  height: 54px;
+  left: 175px;
+  top: 450px;
+  background: #FFC700;
+  border-radius: 24px;
+}
+
+.main-first__img {
+  width: 500px;
+  height: 450px;
+}
+
+.main-second {
+  width: 500px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-second__advantages {
+  position: absolute;
+  width: 480px;
+  height: 114px;
+  left: 175px;
+  top: 700px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #232020;
+}
+
+.main-second__list {
+  position: absolute;
+  right: 145px;
+  top: 650px;
+  width: 458px;
+  height: 31px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 200%;
+  text-transform: uppercase;
+  color: #232020;
+}
+
+.main-second__plus {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.main-second__plus li::before {
+  content: "+";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-right: 5px;
+  color: #FFC700;
+  border-radius: 50%;
+}

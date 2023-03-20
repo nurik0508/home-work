@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 125px;
+}
+
+.header-title {
+  display: flex;
+}
+
+.header__logo {
+  width: 34px;
+  height: 34px;
+
+}
+
+.header h3 {
+  font-size: 13px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.header-btn {
+  font-weight: 400;
+  font-size: 16px;
+  color: #232020;
+  background-color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
