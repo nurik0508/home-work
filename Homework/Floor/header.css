@@ -20,19 +20,28 @@
 }
 
 .header h3 {
-  font-size: 13px;
   padding-top: 10px;
   padding-left: 10px;
+  font-size: 20px;
+  font-weight: 20;
+  text-transform: uppercase;
 }
 
 .header-btn {
+  width: 200px;
+  height: 60px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
+  text-transform: uppercase;
   color: #232020;
   background-color: white;
   display: inline-block;
   padding: 10px 20px;
   text-align: center;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 30px;
+}
+.header-btn:hover{
+  background-color: yellow;
+  transition: 1s;
 }

@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./header.css">
   <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./footer.css">
 
 </head>
 
@@ -22,17 +23,19 @@
   <main>
     <div class="main-first">
       <div class="main-first-first">
-        <h1>Приносим тепло <br> в каждый дом</h1>
-        <p>Устанавливаем теплые полы в квартирах, офисах <br> и загородных домах.</p>
-        <button class="main-btn">Рассчитать стоимость</button>
+        <h1>Приносим тепло в каждый дом</h1>
+        <p>Устанавливаем теплые полы в квартирах, офисах и загородных домах.</p>
+        <div class="main-btn">
+          <button class="main-btn__t">Рассчитать стоимость</button>
+        </div>
       </div>
       <img class="main-first__img" src="./img/Rectangle 2.png" alt="Image">
     </div>
     <div class="main-second">
       <div class="main-second__advantages">
-        <h1>Наши <br> преимущества</h1>
+        <h1>Наши преимущества</h1>
       </div>
-      <div class="main-second__list">
+      <div class="main-second-list">
         <ul class="main-second__plus">
           <li>Надежные материалы</li>
           <li>опытные монтажники</li>
@@ -42,33 +45,90 @@
         </ul>
       </div>
     </div>
+
+
+
+
+
     <div class="main-third">
       <div class="main-third1">
         <h1>Рассчитайте стоимость</h1>
-        <div class="main-third__input1">
-          <label for="">Ширина помещения, м</label>
-          <input type="text" name="" id="">
-          <label for="">Длина помещения, м </label>
-          <input type="text">
-        </div>
-        <div class="main-third__input2">
+        <form class="main-third__input1">
+          <div class="main-third__label1">
+            <label for="">Ширина помещения, м</label>
+            <input type="text" name="" id="">
+          </div>
+          <div class="main-third__label2">
+            <label for="">Длина помещения, м </label>
+            <input type="text">
+          </div>
+        </form>
+        <form class="main-third__input2">
           <p>Тариф</p>
-          <input type="checkbox">
-          <label for="">Эконом</label>
-          <input type="checkbox">
-          <label for="">Комфорт</label>
-          <input type="checkbox">
-          <label for="">Премиум</label>
-        </div>
+          <div class="main-third__il">
+            <input type="radio">
+            <label for="">Эконом</label>
+            <input type="radio">
+            <label for="">Комфорт</label>
+            <input type="radio">
+            <label for="">Премиум</label>
+          </div>
+        </form>
         <button class="main-btn2">Рассчитать</button>
       </div>
-      <div class="main-third2">
-        <img src="./img/Rectangle 1.jpg" alt="Image">
-        
-      </div>
 
+      <div class="main-third2">
+        <ul class="main-third2__container">
+          <li>Площадь <span>35 кв.м.</span></li>
+          <li>Примерная стоимость <span>42590 руб</span></li>
+        </ul>
+      </div>
     </div>
+
   </main>
+
+
+  <footer class="footer">
+    <img class="footer__rectangle" src="./img/Rectangle 13.png" alt="Footer Rectangle">
+    <div class="footer-main">
+      <div class="footer-title1">
+        <div class="footer-parts">
+          <img class="footer__logo" src="./img/Vector.png" alt="Footer Logo">
+          <h3>Теплый пол</h3>
+        </div>
+        <div class="footer-p">
+          <p>© Теплый пол, 2023</p>
+        </div>
+      </div>
+      <div class="footer-title2">
+          <div class="footer-title2__img">
+            <img class="footer__img1" src="./img/youtube.png" alt="Footer Youtube">
+            <img class="footer__img2" src="./img/telegram.png" alt="Footer Telegram">
+          </div>
+          <div>
+            <div class="footer-parts2">
+            
+             <div class="footer-parts__lh">
+              <div class="footer__call">
+            <img class="footer-call__img" src="./img/call.png" alt="Footer Call">
+            <p>+7 858 849 73 80</p>
+          </div>
+
+          <div class="footer__message">
+            <img class="footer-message__img" src="./img/message.png" alt="Footer Message">
+            <p>Teplyipol@gmail.com</p>
+          </div>
+        </div>
+
+          <div class="footer-text">
+            <p>Designer: Anastasia Ilina</p>
+            <p>Developer: </p>
+          </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
