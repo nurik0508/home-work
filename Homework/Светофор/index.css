@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.traffic-light {
+  margin: 50px 50px 0px 50px;
+  width: 80px;
+  height: 220px;
+  background-color: #0e0e0e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.holder {
+  margin: 0px 80px;
+  width: 20px;
+  height: 280px;
+  background-color: #0e0e0e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red {
+  background-color: rgb(196, 63, 63);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+  animation-name: rrr;
+  animation-delay: 0s;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
+
+.yellow {
+  background-color: rgb(226, 226, 112);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+  animation-name: yyy;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+.green {
+  background-color: rgb(48, 131, 48);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-name: ggg;
+  animation-delay: 10s;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+}
+
+@keyframes rrr {
+  0% {
+    background-color: rgb(196, 63, 63);
+  }
+
+  33% {
+    background-color: rgb(247, 5, 5);
+  }
+
+  66% {
+    background-color: rgb(196, 63, 63);
+  }
+
+  99% {
+    background-color: rgb(247, 5, 5);
+  }
+}
+
+@keyframes yyy {
+  0% {
+    background-color: rgb(226, 226, 112);
+  }
+
+  33% {
+    background-color: yellow;
+  }
+
+  66% {
+    background-color: rgb(226, 226, 112);
+  }
+
+  99% {
+    background-color: yellow;
+  }
+
+}
+
+@keyframes ggg {
+  0% {
+    background-color: rgb(48, 131, 48);
+  }
+
+  33% {
+    background-color: rgb(5, 247, 5);
+  }
+
+  66% {
+    background-color: rgb(48, 131, 48);
+  }
+
+  99% {
+    background-color: rgb(5, 247, 5);
+  }
+}
